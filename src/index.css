@@ -13,6 +13,17 @@ header{
     text-align: center;
     padding: 1px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.headertitle{
+    font-size: 2.4rem;
+}
+.headerImg{
+    height: 6rem;
+    width:auto;
 }
 .form{
      margin-bottom: 2%;
@@ -20,7 +31,7 @@ header{
 }
 input[type="text"]{
     margin-right: 2%;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 .meme{
     position: relative;
@@ -64,13 +75,14 @@ input[type="text"]{
 .btn{
     color: white;
     background-color: purple;
-    border: none;
+    border: 2px solid purple;
     padding: 0.25% 1.5%;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    transition: 0.5s;
 }
 .btn:hover{
-    background-color: rgb(62, 238, 238);
     color: purple;
+    background-color: white;
+    /* border: 1px solid purple; */
+
 }

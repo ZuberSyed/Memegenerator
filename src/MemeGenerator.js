@@ -7,7 +7,7 @@ export default class MemeGenerator extends React.Component{
             // isLoading:true,
             topText:"",
             bottomText:"",
-            randomImg:"https://images.mktw.net/im-330506?width=1280&size=1.77777778",
+            randomImg:"https://i.imgflip.com/l4lsd.jpg  ",
             allImages: []
         }
         this.handleChange = this.handleChange.bind(this)
